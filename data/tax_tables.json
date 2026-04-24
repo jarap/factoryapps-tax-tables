@@ -203,5 +203,81 @@
       "V": 223520
     },
     "nota": "Valores 2025 aproximados. Pendiente validación con resolución ANSES actualizada."
+  },
+  "ib_provincial": {
+    "updated_at": "2026-04-24",
+    "provincias": {
+      "MZA": {
+        "nombre": "Mendoza",
+        "regimen": "unificado",
+        "organismo": "ATM",
+        "nombre_regimen": "Monotributo Unificado Mendoza (MUM)",
+        "vigente_desde": "2026-02-01",
+        "source": "https://atm.mendoza.gov.ar/preguntas-frecuentes/monotributo-unificado-mendoza-mum/",
+        "cuotas_mensuales": {
+          "A": {"servicios": 12176, "venta": 12176},
+          "B": {"servicios": 19112, "venta": 19112},
+          "C": {"servicios": 28586, "venta": 28586},
+          "D": {"servicios": 37707, "venta": 37707},
+          "E": {"servicios": 52183, "venta": 52183},
+          "F": {"servicios": 65397, "venta": 65397},
+          "G": {"servicios": 78206, "venta": 78206},
+          "H": {"servicios": 118656, "venta": 118656},
+          "I": {"servicios": 139456, "venta": 139456},
+          "J": {"servicios": 167307, "venta": 167307},
+          "K": {"servicios": 229223, "venta": 229223}
+        }
+      },
+      "BA": {
+        "nombre": "Buenos Aires",
+        "regimen": "unificado",
+        "organismo": "ARBA",
+        "nombre_regimen": "Ingresos Brutos Simplificado",
+        "vigente_desde": "2026-02-01",
+        "source": "https://www.arba.gov.ar/IBSimplificado/",
+        "cuotas_mensuales": {
+          "A": {"servicios": 9845, "venta": 8565},
+          "B": {"servicios": 16020, "venta": 13930},
+          "C": {"servicios": 25040, "venta": 21780},
+          "D": {"servicios": 34820, "venta": 30280},
+          "E": {"servicios": 46085, "venta": 40070},
+          "F": {"servicios": 65255, "venta": 56740},
+          "G": {"servicios": 88570, "venta": 77025},
+          "H": {"servicios": 153200, "venta": 133220},
+          "I": {"servicios": 196345, "venta": 170740},
+          "J": {"servicios": 258580, "venta": 224850},
+          "K": {"servicios": 360090, "venta": 313120}
+        }
+      },
+      "CABA": {
+        "nombre": "CABA",
+        "regimen": "unificado",
+        "organismo": "AGIP",
+        "vigente_desde": "2026-02-01",
+        "status": "valores_pendientes",
+        "nota": "Monotributo Unificado CABA vigente desde feb-2026 (Res. 24/AGIP/26). Valores por categoría pendientes de cargar — consultá https://agip.gob.ar"
+      },
+      "COR": {"nombre": "Córdoba", "regimen": "unificado", "organismo": "Rentas Córdoba", "status": "valores_pendientes", "nota": "Adherida al Monotributo Unificado. Valores pendientes de cargar."},
+      "ER": {"nombre": "Entre Ríos", "regimen": "unificado", "organismo": "ATER", "status": "valores_pendientes", "nota": "Adherida al Monotributo Unificado. Valores pendientes de cargar."},
+      "SJ": {"nombre": "San Juan", "regimen": "unificado", "organismo": "DGR San Juan", "status": "valores_pendientes"},
+      "JY": {"nombre": "Jujuy", "regimen": "unificado", "organismo": "DPR Jujuy", "status": "valores_pendientes"},
+      "SAL": {"nombre": "Salta", "regimen": "unificado", "organismo": "DGR Salta", "status": "valores_pendientes"},
+      "RN": {"nombre": "Río Negro", "regimen": "unificado", "organismo": "ARNE", "status": "valores_pendientes"},
+      "NQ": {"nombre": "Neuquén", "regimen": "unificado", "organismo": "DPR Neuquén", "status": "valores_pendientes"},
+      "SC": {"nombre": "Santa Cruz", "regimen": "unificado", "organismo": "ASIP", "status": "valores_pendientes"},
+      "CHA": {"nombre": "Chaco", "regimen": "unificado", "organismo": "ATP Chaco", "status": "valores_pendientes"},
+      "CAT": {"nombre": "Catamarca", "regimen": "unificado", "organismo": "AGR", "status": "valores_pendientes"},
+      "TF": {"nombre": "Tierra del Fuego", "regimen": "unificado", "organismo": "AREF", "status": "valores_pendientes"},
+      "SF": {"nombre": "Santa Fe", "regimen": "separado", "organismo": "API", "nota": "IIBB se paga aparte ante API. Alícuota típica 4,5% sobre facturación (consultá según actividad)."},
+      "MIS": {"nombre": "Misiones", "regimen": "separado", "organismo": "DGR Misiones", "nota": "IIBB se paga aparte ante DGR."},
+      "TUC": {"nombre": "Tucumán", "regimen": "separado", "organismo": "DGR Tucumán", "nota": "IIBB se paga aparte ante DGR."},
+      "LR": {"nombre": "La Rioja", "regimen": "separado", "organismo": "DGIP", "nota": "IIBB se paga aparte ante DGIP."},
+      "SE": {"nombre": "Santiago del Estero", "regimen": "separado", "organismo": "DGR Sgo. del Estero", "nota": "IIBB se paga aparte."},
+      "LP": {"nombre": "La Pampa", "regimen": "separado", "organismo": "DGR La Pampa", "nota": "IIBB se paga aparte."},
+      "CTE": {"nombre": "Corrientes", "regimen": "separado", "organismo": "DGR Corrientes", "nota": "IIBB se paga aparte."},
+      "FOR": {"nombre": "Formosa", "regimen": "separado", "organismo": "DGR Formosa", "nota": "IIBB se paga aparte."},
+      "CHU": {"nombre": "Chubut", "regimen": "separado", "organismo": "DGR Chubut", "nota": "IIBB se paga aparte."},
+      "SL": {"nombre": "San Luis", "regimen": "separado", "organismo": "DPIP", "nota": "IIBB se paga aparte."}
+    }
   }
 }
