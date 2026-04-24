@@ -1,0 +1,207 @@
+{
+  "schema_version": "1",
+  "updated_at": "2026-04-24T13:36:38.320407+00:00",
+  "updated_by": "local@local",
+  "source_notes": "Valores iniciales cargados manualmente cruzando arca.gob.ar/monotributo/categorias.asp (vigente 2026-02) y Tabla Art. 94 LIG ene-jun 2026. Se actualizarán automáticamente por el scraper semanal.",
+  "monotributo": {
+    "vigente_desde": "2026-02-01",
+    "source": "https://www.afip.gob.ar/monotributo/categorias.asp",
+    "categorias": [
+      {
+        "letra": "A",
+        "tope_anual": 10277988.13,
+        "sipa": 15616.17,
+        "obra_social": 21990.11,
+        "impuesto_servicios": 4780.46,
+        "impuesto_venta": 4780.46,
+        "cuota_total_servicios": 42386.74,
+        "cuota_total_venta": 42386.74
+      },
+      {
+        "letra": "B",
+        "tope_anual": 15058447.71,
+        "sipa": 17177.79,
+        "obra_social": 21990.11,
+        "impuesto_servicios": 9082.88,
+        "impuesto_venta": 9082.88,
+        "cuota_total_servicios": 48250.78,
+        "cuota_total_venta": 48250.78
+      },
+      {
+        "letra": "C",
+        "tope_anual": 21113696.52,
+        "sipa": 18895.57,
+        "obra_social": 21990.11,
+        "impuesto_servicios": 15616.17,
+        "impuesto_venta": 14341.38,
+        "cuota_total_servicios": 56501.85,
+        "cuota_total_venta": 55227.06
+      },
+      {
+        "letra": "D",
+        "tope_anual": 26212853.42,
+        "sipa": 20785.13,
+        "obra_social": 26133.18,
+        "impuesto_servicios": 25495.79,
+        "impuesto_venta": 23742.95,
+        "cuota_total_servicios": 72414.1,
+        "cuota_total_venta": 70661.26
+      },
+      {
+        "letra": "E",
+        "tope_anual": 30833964.37,
+        "sipa": 22863.64,
+        "obra_social": 31869.73,
+        "impuesto_servicios": 47804.6,
+        "impuesto_venta": 37924.98,
+        "cuota_total_servicios": 102537.97,
+        "cuota_total_venta": 92658.35
+      },
+      {
+        "letra": "F",
+        "tope_anual": 38642048.36,
+        "sipa": 25150.0,
+        "obra_social": 36650.19,
+        "impuesto_servicios": 67245.13,
+        "impuesto_venta": 49398.08,
+        "cuota_total_servicios": 129045.32,
+        "cuota_total_venta": 111198.27
+      },
+      {
+        "letra": "G",
+        "tope_anual": 46211109.37,
+        "sipa": 35210.0,
+        "obra_social": 39518.47,
+        "impuesto_servicios": 122379.76,
+        "impuesto_venta": 61189.87,
+        "cuota_total_servicios": 197108.23,
+        "cuota_total_venta": 135918.34
+      },
+      {
+        "letra": "H",
+        "tope_anual": 70113407.33,
+        "sipa": 49294.0,
+        "obra_social": 47485.89,
+        "impuesto_servicios": 350567.04,
+        "impuesto_venta": 175283.51,
+        "cuota_total_servicios": 447346.93,
+        "cuota_total_venta": 272063.4
+      },
+      {
+        "letra": "I",
+        "tope_anual": 78479211.62,
+        "sipa": 69011.6,
+        "obra_social": 58640.31,
+        "impuesto_servicios": 697150.35,
+        "impuesto_venta": 278860.14,
+        "cuota_total_servicios": 824802.26,
+        "cuota_total_venta": 406512.05
+      },
+      {
+        "letra": "J",
+        "tope_anual": 89872640.3,
+        "sipa": 96616.24,
+        "obra_social": 65810.99,
+        "impuesto_servicios": 836580.42,
+        "impuesto_venta": 334632.18,
+        "cuota_total_servicios": 999007.65,
+        "cuota_total_venta": 497059.41
+      },
+      {
+        "letra": "K",
+        "tope_anual": 108357084.05,
+        "sipa": 135262.74,
+        "obra_social": 75212.57,
+        "impuesto_servicios": 1171212.59,
+        "impuesto_venta": 390404.2,
+        "cuota_total_servicios": 1381687.9,
+        "cuota_total_venta": 600879.51
+      }
+    ]
+  },
+  "ganancias_4ta_categoria": {
+    "vigente_desde": "2026-01-01",
+    "vigente_hasta": "2026-06-30",
+    "source": "Tabla Art. 94 LIG ene-jun 2026 (arca.gob.ar)",
+    "mni_anual": 5151803,
+    "deduccion_especial_multiplicador": 4.8,
+    "deduccion_conyuge_anual": 6200000,
+    "deduccion_hijo_menor_anual": 3100000,
+    "escala": [
+      {
+        "desde": 0,
+        "hasta": 2000030,
+        "impuesto_fijo": 0,
+        "alicuota": 0.05
+      },
+      {
+        "desde": 2000030,
+        "hasta": 4000060,
+        "impuesto_fijo": 100001.5,
+        "alicuota": 0.09
+      },
+      {
+        "desde": 4000060,
+        "hasta": 6000090,
+        "impuesto_fijo": 280004.2,
+        "alicuota": 0.12
+      },
+      {
+        "desde": 6000090,
+        "hasta": 9000135,
+        "impuesto_fijo": 520007.8,
+        "alicuota": 0.15
+      },
+      {
+        "desde": 9000135,
+        "hasta": 18000271,
+        "impuesto_fijo": 970014.55,
+        "alicuota": 0.19
+      },
+      {
+        "desde": 18000271,
+        "hasta": 27000406,
+        "impuesto_fijo": 2680040.39,
+        "alicuota": 0.23
+      },
+      {
+        "desde": 27000406,
+        "hasta": 40500609,
+        "impuesto_fijo": 4750071.44,
+        "alicuota": 0.27
+      },
+      {
+        "desde": 40500609,
+        "hasta": 60750914,
+        "impuesto_fijo": 8395126.25,
+        "alicuota": 0.31
+      },
+      {
+        "desde": 60750914,
+        "hasta": null,
+        "impuesto_fijo": 14672720.8,
+        "alicuota": 0.35
+      }
+    ]
+  },
+  "aportes_dependiente": {
+    "source": "Ley 24.241 (SIPA) + Ley 19.032 (PAMI) + Ley 23.660 (Obra Social)",
+    "sipa": 0.11,
+    "obra_social": 0.03,
+    "pami": 0.03,
+    "tope_base_imponible_mensual": 4500000,
+    "tope_base_imponible_mensual_nota": "MOPRE actualizado semestralmente. Verificar en arca.gob.ar"
+  },
+  "autonomos": {
+    "vigente_desde": "2026-02-01",
+    "source_pendiente": "Verificar últimas resoluciones ANSES autónomos 2026",
+    "cuotas_mensuales": {
+      "I": 50800,
+      "II": 71120,
+      "III": 101600,
+      "IV": 162560,
+      "V": 223520
+    },
+    "nota": "Valores 2025 aproximados. Pendiente validación con resolución ANSES actualizada."
+  }
+}
